@@ -4,7 +4,7 @@ export togtime, create, observe
 
 using TOGZMQAPIClient
 
-start = TOGZMQAPIClient.start
+awaken = TOGZMQAPIClient.awaken
 call = TOGZMQAPIClient.call
 
 # togtime() = TOGZMQAPIClient.call(TOGZMQAPIClient.FUNCTIONS[:time])
