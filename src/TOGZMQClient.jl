@@ -15,8 +15,8 @@ togtime() = TOGZMQAPIClient.call(:time)
 create(x) = TOGZMQAPIClient.call(:create, x)
 observe(x) = TOGZMQAPIClient.call(:observe, x)
 
-function start(socketlocation)
-    TOGZMQAPIClient.start(socketlocation)
-end
+# function start(socketlocation)
+#     TOGZMQAPIClient.start(socketlocation)
+# end
 
 end
